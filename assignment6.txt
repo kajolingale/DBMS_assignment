@@ -13,7 +13,13 @@ ASSIGNMENT 6
 
 3.Write a query that will produce all the customers whose names begin with a letter
   from ‘A’ to ‘G’.
-->SELECT *from customers where cname between 'A' and 'G';
+->select *from customers where cname like 'A%' 
+  or cname like 'B%' 
+  or cname like 'C%'
+  or cname like 'D%' 
+  or cname like 'E%' 
+  or cname like 'F%' 
+  or cname like 'G%';
 
 
 4.Write a query that selects all customers whose names begin with the letter ‘C’.
