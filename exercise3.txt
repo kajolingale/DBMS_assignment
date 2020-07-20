@@ -18,7 +18,7 @@ EXERCISE 3
 
 6. Implement the above command such that ‘l’ is replaced with ‘r’ and ‘a’ is replaced
 with ‘o’.
-->select replace(sname,'l','r'), replace(sname, 'a', 'o') from s;
+->select replace(replace(sname,'l','r'),'a','o') from s;
 
 7. Display the Supplier names and the lengths of the names. 
 ->select sname, length(sname) from s;
