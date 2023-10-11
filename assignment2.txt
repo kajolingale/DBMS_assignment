@@ -1,4 +1,4 @@
-ASSIGNMENT 2
+ASSIGNMENT2
 
 1.Which field of the Customers table is the primary key?
 -->
